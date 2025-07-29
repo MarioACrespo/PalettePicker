@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Palette Picker</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Palette Picker</h1>
+      </header>
+      
+      <div class="form-section">
+        <div class="form-box">
+          <h2>Add a Palette</h2>
+          <form aria-label="Create a new color palette">
+            <div class="form-group">
+              <label for="palette-title">Palette Title:</label>
+              <input type="text" id="palette-title" name="title" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="color-1">Color 1</label>
+              <input type="color" id="color-1" name="color1" value="#ff0000">
+            </div>
+            
+            <div class="form-group">
+              <label for="color-2">Color 2</label>
+              <input type="color" id="color-2" name="color2" value="#00ff00">
+            </div>
+            
+            <div class="form-group">
+              <label for="color-3">Color 3</label>
+              <input type="color" id="color-3" name="color3" value="#0000ff">
+            </div>
+            
+            <div class="form-group">
+              <label>Temperature</label>
+              <div class="radio-group">
+                <label>
+                  <input type="radio" name="temperature" value="warm">
+                  Warm
+                </label>
+                <label>
+                  <input type="radio" name="temperature" value="neutral" checked>
+                  Neutral
+                </label>
+                <label>
+                  <input type="radio" name="temperature" value="cool">
+                  Cool
+                </label>
+              </div>
+            </div>
+            
+            <button type="submit">Create the Palette</button>
+          </form>
+        </div>
+      </div>
+      
+      <div class="palettes-section">
+        <h2>Palettes</h2>
+        <div class="palettes-grid">
+          <!-- Palettes will be dynamically added here -->
+        </div>
+      </div>
+    </div>
+    
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

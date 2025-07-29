@@ -1,0 +1,56 @@
+[
+  {
+    "title": "Marcy",
+    "temperature": "neutral",
+    "colors": [
+      {
+        "hex": "#c92929",
+        "label": "Text Example"
+      },
+      {
+        "hex": "#2f5a8b",
+        "label": "Text Example"
+      },
+      {
+        "hex": "#327a5f",
+        "label": "Text Example"
+      }
+    ]
+  },
+  {
+    "title": "Sleek and Modern",
+    "temperature": "cool",
+    "colors": [
+      {
+        "hex": "#3A5199",
+        "label": "Text Example"
+      },
+      {
+        "hex": "#2F2E33",
+        "label": "Text Example"
+      },
+      {
+        "hex": "#D5D6D2",
+        "label": "Text Example"
+      }
+    ]
+  },
+  {
+    "title": "Winter Reds",
+    "temperature": "warm",
+    "colors": [
+      {
+        "hex": "#A10115",
+        "label": "Text Example"
+      },
+      {
+        "hex": "#C0B2B5",
+        "label": "Text Example"
+      },
+      {
+        "hex": "#600A0A",
+        "label": "Text Example"
+      }
+    ]
+  }
+] 
